@@ -1,0 +1,42 @@
+body {
+    background: #f8f8f8
+}
+
+.menu {
+    color: darkblue;
+    font-style: italic;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.fulldescr {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+    
+.fulldiscrlist {
+    font-style: italic;
+    background: #eeeeee;
+    list-style-type: circle;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 250px;
+    height: 20px;
+    color: darkblue;
+    font-size: 14px;
+    font-style: italic;
+}
+
+textarea {
+    width: 250px;
+    height: 120px;
+    color: darkblue;
+    font-size: 14px;
+    font-style: italic;
+}
+
