@@ -2,11 +2,15 @@ body {
     background: #f8f8f8
 }
 
-.menu {
+.menu li a {
     color: darkblue;
     font-style: italic;
     font-size: 20px;
     list-style-type: none;
+}
+
+.menu li a:hover {
+    color: #1896FF;
 }
 
 .fulldescr {
@@ -16,20 +20,33 @@ body {
     line-height: 24px;
     text-align: left;
 }
-    
+
 .fulldiscrlist {
     font-style: italic;
     background: #eeeeee;
     list-style-type: circle;
 }
 
-input[type="text"],
+input[type="text"] {
+    width: 250px;
+    height: 20px;
+    color: darkblue;
+    font-size: 14px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
 input[type="email"] {
     width: 250px;
     height: 20px;
     color: darkblue;
     font-size: 14px;
     font-style: italic;
+}
+
+input[type="email"]:focus {
+    color: green;
+    background: lightgray;
 }
 
 textarea {
@@ -39,4 +56,3 @@ textarea {
     font-size: 14px;
     font-style: italic;
 }
-
